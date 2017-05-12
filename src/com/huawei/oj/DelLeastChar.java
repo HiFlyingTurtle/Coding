@@ -2,6 +2,7 @@ package com.huawei.oj;
 import java.util.*;
 /**
  * 华为在线编程删除字符串中出现的最小字符串
+ * 实现对map的排序
  * @author wwh
  * @create 2017-04-08 15:53
  **/
