@@ -1,7 +1,5 @@
 package com.huawei.oj;
-
 import java.util.Scanner;
-
 /**
  * 华为OJ在线编程合唱队
  * @author wwh
