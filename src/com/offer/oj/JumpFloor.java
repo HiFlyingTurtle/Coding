@@ -6,6 +6,11 @@ package com.offer.oj;
  * @create 2017/5/14
  */
 public class JumpFloor {
+     /**
+     * 跳上1级台阶，也可以跳上2级
+     * @param target
+     * @return
+     */
     public int JumpFloor(int target) {
         int []result=new int[target+2];
         result[0]=0;
@@ -21,6 +26,11 @@ public class JumpFloor {
 
     }
 
+     /**
+     * 跳上1级台阶，也可以跳上2级……它也可以跳上n级
+     * @param target
+     * @return
+     */
     public int JumpFloorII(int target){
         int []result=new int[target+2];
         result[0]=1;
