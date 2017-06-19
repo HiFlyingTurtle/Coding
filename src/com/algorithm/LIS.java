@@ -59,6 +59,8 @@ public class LIS {
 
         return res;
     }
+
+
     public static void main(String[] args) {
         int []a={116,126,150,200,210,130,197,200};
         LIS li=new LIS();
