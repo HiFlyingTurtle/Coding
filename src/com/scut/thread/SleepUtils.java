@@ -1,5 +1,4 @@
 package com.scut.thread;
-
 import java.util.concurrent.TimeUnit;
 
 /**
