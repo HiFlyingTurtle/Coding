@@ -1,6 +1,9 @@
 package com.scut.wwh;
 
+import java.util.HashMap;
 import java.util.Random;
+import java.util.Vector;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by scut-313 on 2017/2/28.
@@ -15,6 +18,5 @@ public class Test {
 
         int i=(int)(Math.random()*91)+10;
         System.out.println(i);
-
     }
 }

@@ -17,7 +17,6 @@ public class SubStructure {
             return  IsSameOrNotParentAndChild(parent.left,child.left)&& IsSameOrNotParentAndChild(parent.right,child.right);
         }
     }
-
     public boolean HasSubtree(TreeNode root1,TreeNode root2) {
         if(root2==null||root1==null) return false;
         boolean result=false;
