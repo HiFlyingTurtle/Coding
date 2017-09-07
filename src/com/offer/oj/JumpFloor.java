@@ -11,7 +11,7 @@ public class JumpFloor {
      * @param target
      * @return
      */
-    public int JumpFloor(int target) {
+    public  int JumpFloor(int target) {
         int []result=new int[target+2];
         result[0]=0;
         result[1]=1;
@@ -24,6 +24,7 @@ public class JumpFloor {
             return result[target];
         }
 
+
     }
 
      /**
@@ -31,7 +32,7 @@ public class JumpFloor {
      * @param target
      * @return
      */
-    public int JumpFloorII(int target){
+    public  int JumpFloorII(int target){
         int []result=new int[target+2];
         result[0]=1;
         result[1]=1;
@@ -47,6 +48,6 @@ public class JumpFloor {
         return result[target];
     }
     public static void main(String[] args) {
-
+//        System.out.println(JumpFloor(3));
     }
 }

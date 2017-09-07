@@ -1,0 +1,8 @@
+编程训练题的通用模板部分
+
+ public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        while (sc.hasNext()){
+
+           }
+   }

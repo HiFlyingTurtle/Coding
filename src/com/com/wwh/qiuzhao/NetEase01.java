@@ -2,6 +2,8 @@ package com.com.wwh.qiuzhao;
 import java.util.Scanner;
 /**
  * 网易秋招内推编程第一题
+ * 独立的小易
+ * https://www.nowcoder.com/discuss/36124
  * @author wwh
  * @create 2017-08-12 14:14
  **/

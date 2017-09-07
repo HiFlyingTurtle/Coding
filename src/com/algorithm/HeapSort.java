@@ -15,7 +15,7 @@ public class HeapSort {
       list[i] = heap.remove();
   }
   
-  /** A test method */
+  /** A chunzhao method */
   public static void main(String[] args) {
     Integer[] list = {2, 3, 2, 5, 6, 1, -2, 3, 14, 12};
     heapSort(list);
