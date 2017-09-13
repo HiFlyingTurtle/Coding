@@ -13,6 +13,7 @@ public class Ali01 {
 
     private static int process(item [] items)
     {
+        String [] s={"a","b"};
         int boxNum=0;
         Arrays.sort(items, new Comparator<item>() {
             @Override
