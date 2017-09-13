@@ -1,12 +1,23 @@
 package com.offer.oj;
 import java.util.ArrayList;
+import java.util.Scanner;
+
 /**
  * 把只包含因子2、3和5的数称作丑数（Ugly Number）。
  * @author wwh
  * @create 2017-08-12 14:00
  **/
 public class GetUglyNumber {
-    public int GetUglyNumber_Solution(int index) {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        while(sc.hasNext()){
+            int n=sc.nextInt();
+            int res=GetUglyNumber_Solution(n);
+            System.out.println(res);
+        }
+
+    }
+    public static int GetUglyNumber_Solution(int index) {
         if(index<=0) return 0;
         ArrayList<Integer> res=new ArrayList<>();
         res.add(1);
