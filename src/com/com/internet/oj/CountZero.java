@@ -15,7 +15,7 @@ public class CountZero {
         return res;
     }
     public static void main(String[] args) {
-        System.out.println(ZeroCount(1024));
+        System.out.println(ZeroCount(2016));
         String str = "hello world";
         int s=str.length();
     }
