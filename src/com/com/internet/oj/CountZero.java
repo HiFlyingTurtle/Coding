@@ -1,4 +1,7 @@
 package com.com.internet.oj;
+
+import java.util.Scanner;
+
 /**
  * 计算1024阶乘后面有几个0
  * 末尾0的个数取决于乘法中因子2和5的个数。显然乘法中因子2的个数大于5的个数，所以我们只需统计因子5的个数。
@@ -14,9 +17,20 @@ public class CountZero {
         }
         return res;
     }
+
+    public  static int ZeroCount1(int num){
+        if(num<5) return 0;
+        else {
+            num/=5;
+            return num+ZeroCount1(num);
+        }
+    }
+
     public static void main(String[] args) {
-        System.out.println(ZeroCount(2016));
-        String str = "hello world";
-        int s=str.length();
+        Scanner sc=new Scanner(System.in);
+        while (sc.hasNext()){
+            int num=sc.nextInt();
+            System.out.println(ZeroCount1(num));
+        }
     }
 }

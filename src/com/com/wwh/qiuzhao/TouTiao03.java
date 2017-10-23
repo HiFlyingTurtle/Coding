@@ -11,7 +11,6 @@ import java.util.Scanner;
  * 1 2 1
  * 2 4 5
  * 3 5 3
- *
  * output:
  * 1
  * 0
